@@ -8,7 +8,7 @@ Test Teardown  Common.End Web Test
 Suite Teardown  Common.Clean Test Data
 # robot -d results tests/amazon.robot
 # robot -d results -i Current tests/amazon.robot
-
+# test
 
 *** Variables ***
 ${BROWSER} =  chrome
