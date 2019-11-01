@@ -19,12 +19,12 @@ ${LOGIN_PASSWORD} =  password
 
 *** Test Cases ***
 Should be able to login
-    [Tags]  Smoke
+    [Tags]  Smoke  Search
     # AmazonApp.Login  ${LOGIN_EMAIL}  ${LOGIN_PASSWORD}
     AmazonApp.Login  ${LOGIN_EMAIL}
 
 Should not be able to login with invalid credentials
-    [Tags]  Smoke  Search
+    [Tags]  Smoke  View
     AmazonApp.Login with invalid credentials
 
 User can search for products
