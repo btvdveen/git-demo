@@ -24,7 +24,7 @@ Should be able to login
     AmazonApp.Login  ${LOGIN_EMAIL}
 
 Should not be able to login with invalid credentials
-    [Tags]  Smoke  View
+    [Tags]  Smoke  Search
     AmazonApp.Login with invalid credentials
 
 User can search for products
