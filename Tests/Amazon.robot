@@ -19,7 +19,7 @@ ${LOGIN_PASSWORD} =  password
 
 *** Test Cases ***
 Should be able to login
-    [Tags]  Smoke  Products
+    [Tags]  Smoke  Search
     # AmazonApp.Login  ${LOGIN_EMAIL}  ${LOGIN_PASSWORD}
     AmazonApp.Login  ${LOGIN_EMAIL}
 
