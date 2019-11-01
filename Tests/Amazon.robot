@@ -49,4 +49,5 @@ User must sign in to check out
     AmazonApp.Add Product to Cart
     AmazonApp.Begin Checkout
 
-
+Feature 1 Test
+    Log  doing feature 1
